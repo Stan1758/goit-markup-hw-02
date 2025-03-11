@@ -19,14 +19,6 @@ body {
   background-color: #ffffff;
 }
 
-h1 {
-  color: #fff;
-  line-height: 107%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  font-weight: 700;
-  font-size: 56px;
-}
 a {
   text-decoration: none;
 }
@@ -37,14 +29,14 @@ ul {
 /* header */
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
 
   /* line-height: 21px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .span-logo-header {
   color: #2e2f42;
@@ -56,9 +48,10 @@ ul {
   color: #404bbf;
 }
 .nav-link {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
 .nav-link:hover {
   color: #404bbf;
@@ -67,9 +60,20 @@ ul {
   color: #404bbf;
 }
 
-address {
+.header-adress {
   font-style: normal;
 }
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+
 button {
   cursor: pointer;
   font-weight: 500;
@@ -92,6 +96,15 @@ button {
 }
 
 /* main */
+
+.main-text {
+  color: #fff;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+}
 .content-title {
   font-weight: 500;
   font-size: 20px;
